@@ -1,0 +1,38 @@
+.header{
+    position: relative;
+    height: 100vh;
+    background-color: white;
+}
+
+.container{
+    display: block;
+    position: fixed;
+    height: 100%;
+    padding: .7rem;
+    border-right: 2px solid rgba(0, 0, 0, 0.8);
+    z-index: 999;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 4rem 0;
+    color: rgb(120, 120, 120);
+    font-size: 1rem;
+}
+
+.menu li{
+    cursor: pointer;
+}
+
+.menu a:hover{
+    color: black;
+}
