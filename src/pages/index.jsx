@@ -7,9 +7,9 @@ export default function Home() {
             <title>Universo Tutorias</title>
             <meta description="Todos os tutorias e dicas sobre tudo." />
          </Head>
-         <article style={{ display : "flex", width : "60%", flexDirection : "column", justifyContent : "center", alignItems : "center", margin : "0 auto" }}>
-            <h1 style={{ fontSize: "1.8rem", padding: "10%" }}>Top Gun: Maverick se torna o maior sucesso de Tom Cruise nos cinemas</h1>
-            <p style={{ fontSize: "1.3rem", color : "rgba(0, 0, 0, 0.7)", lineHeight : "2rem", padding: "10%" }}>Top Gun: Maverick se tornou o filme de maior sucesso de Tom Cruise nos cinemas ao arrecadar pouco mais de US$ 800 milhões nas bilheterias globais. Em menos de um mês desde sua estreia, a aguardada sequência continua voando alto e batendo recordes, somando as receitas de US$ 422 milhões nos EUA e US$ 384 milhões ao redor do mundo.
+         <article style={{ width: "60%", margin: "0 auto" }}>
+            <h1 style={{ fontSize: "1.8rem", paddingBottom: "10%" }}>Top Gun: Maverick se torna o maior sucesso de Tom Cruise nos cinemas</h1>
+            <p style={{ fontSize: "1.3rem", color : "rgba(0, 0, 0, 0.7)", lineHeight : "2rem"}}>Top Gun: Maverick se tornou o filme de maior sucesso de Tom Cruise nos cinemas ao arrecadar pouco mais de US$ 800 milhões nas bilheterias globais. Em menos de um mês desde sua estreia, a aguardada sequência continua voando alto e batendo recordes, somando as receitas de US$ 422 milhões nos EUA e US$ 384 milhões ao redor do mundo.
 
                Até então, o título de maior sucesso na carreira do ator era Missão: Impossível - Efeito Fallout, o qual fez US$ 791,1 milhões nas bilheterias. Além disso, Top Gun 2 já é a segunda produção de maior arrecadação de todos os tempos da Paramount Pictures - atrás somente de Titanic.
 
@@ -30,7 +30,6 @@ export default function Home() {
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi qui eum dolorem obcaecati a similique aspernatur exercitationem neque repellendus voluptates unde illo distinctio, maiores odio iure optio vitae? Consequatur, aut.
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi qui eum dolorem obcaecati a similique aspernatur exercitationem neque repellendus voluptates unde illo distinctio, maiores odio iure optio vitae? Consequatur, aut.
                </p></article>
-
       </>
    )
 }
