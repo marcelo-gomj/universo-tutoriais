@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    position: sticky;
+    top: 0;
+    flex-direction: column;
+    height: 100%;
+    gap: 4rem;
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+.container section{
+    /* border: 2px solid black; */
+    padding: 2rem;
+}
+
+.most-popular h3{
+    color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 1rem;
+}
+
+.most-popular ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.most-popular a{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.most-popular a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}

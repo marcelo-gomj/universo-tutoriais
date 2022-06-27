@@ -7,10 +7,10 @@ export function Layout({ children }){
     return (
         <div className={layout.container}>
             <Header />
-            <main className={layout["container-main"]}>
+            <div className={layout["container-main"]}>
                 { children }
                 <Footer />
-            </main>
+            </div>
         </div>
     )
 }

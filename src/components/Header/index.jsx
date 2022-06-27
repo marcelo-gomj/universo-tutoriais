@@ -14,7 +14,7 @@ export function Header(){
         <header className={header.header}>
             <div className={header.container}>
                 <div className={header["container-main"]}>
-                    <div className={header.logo}>UT</div>
+                    <div className={header.logo}>UM</div>
                     <nav className={header["container-menu"]}>
                         <ul className={header.menu}>
                             <li><Link href="/"><HomeIcon /></Link></li>
