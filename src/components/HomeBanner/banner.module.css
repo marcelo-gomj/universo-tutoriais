@@ -1,0 +1,70 @@
+.container{
+    position: relative;
+    padding: 0 1.5rem;
+    width: 100%;
+}
+
+.container header{
+    padding: 1rem 0;
+}
+
+.container h2{
+    font-size: 1.2rem;
+}
+
+.layout{
+    display: flex;
+    gap: 4%;
+}
+
+.cover{
+    position: relative;
+    width: 65%;
+}
+
+.cover h3{
+    color: rgba(0, 0, 0, 0.8);
+    padding: 0.5rem 0;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+
+.posts article{
+    display: flex;
+    gap: 3%;
+    padding-bottom: 3%;
+}
+
+.image{
+    position: relative;
+    border: 3px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.image img{
+    object-fit: cover;
+}
+
+.cover .image{
+    height: 20rem;
+    width: 100%;
+}
+
+.posts .image{
+    width: 14rem;
+    height: 7.5rem;
+}
+
+.layout article:hover h3{
+    color: black;
+    text-decoration: underline;
+}
+
+.layout article:hover img{
+    opacity: 0.8;
+}

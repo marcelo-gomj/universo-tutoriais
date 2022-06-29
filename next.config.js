@@ -10,7 +10,10 @@ const nextConfig = {
     });
 
     return config
-  }
+  },
+  images: {
+    domains: ['images.ctfassets.net'],
+  },
 }
 
 module.exports = nextConfig

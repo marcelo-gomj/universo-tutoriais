@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    position: relative;
+    gap: 0.25rem;
+    margin: 0.2rem;
+}
+
+.container li{
+    color: white;
+    background: black;
+    font-size: 0.85rem;
+    font-weight: 300;
+    padding: 0.2rem 0.5rem;
+}
